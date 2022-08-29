@@ -96,11 +96,11 @@ body {
   line-height: 1.4;
   color: var(--title-color);
   margin: 20px 0;
-  width: 21vw;
+  width: 555px;
 }
 .section-description {
   text-align: center;
-  width: 22vw;
+  width: 555px;
   margin: 0 auto;
 }
 .hero .section-description {
@@ -189,16 +189,18 @@ margin-left: 0;
   line-height: 1.4;
   margin: 0 auto 20px;
   text-align: center;
-  width: 15vw;
+  width: 450px;
 }
-.features .title {
+#features .title {
   text-align: left;
   margin-left: 0;
   margin-top: 50px;
+  width: 400px;
 }
-.features .section-description {
+#features .section-description {
   text-align: left;
-  width: 15vw
+  width: 400px;
+  margin-left: 0;
 }
 .features-list {
   margin-top: 25px;
@@ -282,7 +284,7 @@ margin-left: 0;
   margin-bottom: 155px;
 }
 .network-img {
-  max-width: 45vw;
+  max-width: 1060px;
   margin-bottom: 35px;
 }
 .partners {
@@ -290,27 +292,27 @@ margin-left: 0;
   align-items: center;
 }
 .partner:nth-child(1) img {
-  max-width: 9vw;
+  max-width: 220px;
   margin-right: 60px;
 }
 .partner:nth-child(2) img {
-  max-width: 6vw;
+  max-width: 140px;
 }
 .partner:nth-child(3) img {
-  max-width: 11vw;
+  max-width: 280px;
 }
 .partner:nth-child(4) img {
-  max-width: 8vw;
+  max-width: 190px;
   margin-right: 60px;
 }
 .partner:nth-child(5) img {
-  max-width: 7vw;
+  max-width: 170px;
 }
 /* Network finished */
 
 /* Reviews */
 .reviews .title {
-  width: 17vw;
+  width: 520px;
 }
 
 .reviews-wrapper {
@@ -321,7 +323,7 @@ margin-left: 0;
 .review-box {
 border: 2px solid #DDDDDD;
 border-radius: 10px;
-max-width: 18vw;
+max-width: 450px;
 box-sizing: border-box;
 padding: 30px;
 }
@@ -374,7 +376,7 @@ margin-left: 10px;
 }
 .subscription .title {
   text-align: left;
-  width: 21vw;
+  width: 365px;
   margin-bottom: 0;
   line-height: 1.3;
 }
